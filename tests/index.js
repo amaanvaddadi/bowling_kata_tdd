@@ -19,3 +19,12 @@ test('scores a normal frame', function(t) {
   t.equals(score, 5)
   t.end()
 })
+
+test('scores a spare frame', function(t) {
+var frame = [6,4]
+var nextFrame = [3,2]
+var score = game.scoreFrame(frame, nextFrame)
+
+t.equals(score,13)
+t.end()
+})
