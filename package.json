@@ -1,23 +1,30 @@
 {
   "name": "bowling_kata_tdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"bowling kata Tdd\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": " tape tests/**/*.js | tap-spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amaanvaddadi/bowling_kata_tdd.git"
   },
-  "keywords": [],
+  "keywords": [
+    "tests"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/amaanvaddadi/bowling_kata_tdd/issues"
   },
   "homepage": "https://github.com/amaanvaddadi/bowling_kata_tdd#readme",
   "devDependencies": {
+    "tap-spec": "^4.1.1",
     "tape": "^4.6.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
 }
