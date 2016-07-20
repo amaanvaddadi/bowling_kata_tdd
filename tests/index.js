@@ -40,3 +40,7 @@ t.equals(score,22)
 t.end()
 
 })
+test('scores a game', function(t) {
+  var frames = [[0,0],[2,3],[6,4],[3,2],[10,0],[10,0],[2,5], [5,3], [2,6], [5,5]] 
+
+})
