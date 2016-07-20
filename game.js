@@ -1,6 +1,6 @@
 var scoreFrame = function(frame){
 
-  return 0;
+  return frame[0]+ frame[1];
 }
 module.exports ={
 
